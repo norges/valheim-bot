@@ -148,7 +148,7 @@ class DiscordBot(discord.Client):
             try:
                 image = container['Image']
 
-                if image == "lloesche/valheim-server":
+                if image == "ghcr.io/lloesche/valheim-server":
                     id = container['Id']
                     break
             except:
