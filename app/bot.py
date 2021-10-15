@@ -122,7 +122,7 @@ class DiscordBot(discord.Client):
                 await message.channel.send(msg)
         
     def _join(self):
-        message = f"You can join the server by copying this domain `{self.SERVER_DOMAIN}` and pasting (ctrl + v) in game. Password is `{self.SERVER_PASSWORD}`."
+        message = f"You can join the server by copying this domain `{self.SERVER_DOMAIN}`:2456 and pasting (ctrl + v)."
         if self.VALHEIM_PLUS:
             message = message + " For the best experience, we recommend having Valheim Plus installed. Type `!mods` for instructions on how to install Valheim Plus."
         
